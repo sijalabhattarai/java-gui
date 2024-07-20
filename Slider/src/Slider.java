@@ -17,7 +17,6 @@ public class Slider implements ChangeListener {
         label = new JLabel("Value: 50");
         label.setFont(new Font("Serif", Font.BOLD, 20));
         label.setForeground(new Color(255, 69, 0));
-        labe.set
 
         slider = new JSlider(JSlider.VERTICAL, 0, 100, 50);
         slider.setPreferredSize(new Dimension(50, 300));
